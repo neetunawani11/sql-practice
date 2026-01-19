@@ -48,3 +48,25 @@ VALUES
 -- Verify inserted data
 -- -----------------------------------------
 SELECT * FROM DEPARTMENTS;
+
+
+
+-- -----------------------------------------
+-- Insert employee records into EMPLOYEES table
+-- -----------------------------------------
+INSERT INTO EMPLOYEES (EMP_ID, EMP_NAME, DEPT_ID, SALARY, HIRE_DATE)
+VALUES
+-- Employee from IT department
+(1, 'RAHUL', 21, 60000, '2022-01-12'),
+
+-- Employee from HR department
+(2, 'SAHIL', 1, 20000, '2021-03-23'),
+
+-- Employee from Digital Marketing department
+(3, 'SIMRAN', 4, 25000, '2024-01-06'),
+
+-- Employee from Sales department
+(4, 'ANJALI', 5, 30000, '2020-09-14'),
+
+-- Employee from Finance department
+(5, 'RISHI', 3, 55000, '2023-06-11');
